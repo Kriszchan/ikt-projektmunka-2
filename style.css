@@ -2,3 +2,8 @@ body{
     background-color: gray;
     font-family: 'Press Start 2P', cursive;
 }
+
+a:hover{
+    color: purple !important; 
+}
+

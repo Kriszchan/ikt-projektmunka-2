@@ -1,3 +1,9 @@
 body{
     background-color: gray;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#sliderz{
+    width: 1920px;
+    height: 100px;
 }

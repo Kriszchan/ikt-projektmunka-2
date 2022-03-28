@@ -3,7 +3,9 @@ body{
     font-family: 'Press Start 2P', cursive;
 }
 
-#sliderz{
-    width: 1920px;
-    height: 100px;
+#carouselPictures{
+    width: 75vw;
+    border: 0px;
+    padding: 0px;
+    margin: auto;
 }

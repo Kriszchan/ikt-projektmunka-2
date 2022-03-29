@@ -13,3 +13,6 @@ body{
 a:hover{
     color: purple !important; 
 }
+nav{
+    border-bottom: solid 2px purple;
+}

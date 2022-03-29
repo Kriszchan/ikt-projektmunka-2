@@ -5,7 +5,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: url(images/R.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media only screen and (max-width: 600px) {
+        body {
+            background-image: url(images/R16-9.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        }
+  }
 a:hover{
     color: purple !important; 
 }

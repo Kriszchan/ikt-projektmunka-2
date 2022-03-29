@@ -1,6 +1,5 @@
 body{
-    background-color: gray;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a:hover{
@@ -9,7 +8,12 @@ a:hover{
 nav{
     border-bottom: solid 0.3vh purple;
     margin-bottom: 2.5vh;
+    font-family: 'Press Start 2P', cursive;
 }
+<<<<<<< HEAD
 ::-webkit-scrollbar-button{
     background-color: aquamarine;
 }
+=======
+
+>>>>>>> 09c73f3f5ecaf2beab9f4ae428a03c161252fb81

@@ -4,9 +4,7 @@ body{
 
 #carouselPictures{
     width: 75vw;
-    border: 0px;
     padding: 0px;
-    margin: auto;
     border: solid 2px purple;
 }
 
@@ -15,4 +13,5 @@ a:hover{
 }
 nav{
     border-bottom: solid 2px purple;
+    margin-bottom: 7vh;
 }

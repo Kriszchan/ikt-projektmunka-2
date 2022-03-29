@@ -1,5 +1,9 @@
 body{
     font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-image: url(https://media.giphy.com/media/DXgwixqfdZKmtB1jWf/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a:hover{
@@ -10,4 +14,5 @@ nav{
     margin-bottom: 2.5vh;
     font-family: 'Press Start 2P', cursive;
 }
+
 

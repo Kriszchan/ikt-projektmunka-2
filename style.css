@@ -1,9 +1,6 @@
 body{
     font-family: 'Bebas Neue', cursive;
     color: white;
-    background-image: url(https://media.giphy.com/media/DXgwixqfdZKmtB1jWf/giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 @media only screen and (max-width: 800px) {
     body {
@@ -30,4 +27,28 @@ nav{
 }
 ::-webkit-scrollbar-button{
     background-color: aquamarine;
+}
+
+#mijwbody{
+    background-image: url(https://media.giphy.com/media/DXgwixqfdZKmtB1jWf/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indexbody{
+    background-image: url(https://media.giphy.com/media/YH1exrdgGLD07Zg9vf/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#arazasbody{
+    background-image: url(https://media.giphy.com/media/xbAJcyzufQcHm/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kapcsolatbody{
+    background-image: url(https://media.giphy.com/media/lkLCklJJzngRFSo78U/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

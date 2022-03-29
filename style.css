@@ -15,4 +15,7 @@ nav{
     font-family: 'Press Start 2P', cursive;
 }
 
+::-webkit-scrollbar-button{
+    background-color: aquamarine;
+}
 

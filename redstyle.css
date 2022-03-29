@@ -16,3 +16,9 @@ nav{
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 7vh;
 }
+
+#refbody{
+    background-image: url(https://media.giphy.com/media/vBUz3Aoss4NzaUbO7S/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

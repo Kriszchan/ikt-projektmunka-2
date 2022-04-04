@@ -27,3 +27,13 @@ body{
     background-size: cover;
     background-color: black;
 }
+
+#arazasbody{
+    padding: 10px;
+    text-align: justify;
+    font-size: 16pt;
+}
+
+h3{
+    text-decoration: underline;
+}

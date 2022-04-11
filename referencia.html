@@ -36,9 +36,6 @@
                   <a class="nav-link text-primary" href="arazas.html">Árazás</a>
                 </li>                
                 <li class="nav-item">
-                  <a class="nav-link text-primary" href="arazas.html">Árazás</a>
-                </li>                
-                <li class="nav-item">
                   <a class="nav-link text-primary" href="kapcsolat.html">Kapcsolat</a>
                 </li>
               </ul>
@@ -57,14 +54,14 @@
                 <button type="button" data-bs-target="#carouselPictures" data-bs-slide-to="2" ></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="false" onload="changeBackground">
-                  <iframe src="referencia/FH5/Index.html" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                <div class="carousel-item active" data-interval="false" onload="changeBackground()"> 
+                  <iframe onload="changeBackground()" onchange="" src="referencia/FH5/Index.html" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
                 <div class="carousel-item" data-interval="false">
-                    <iframe src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                    <iframe  onload="changeBackground2()" src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
                 <div class="carousel-item" data-interval="false">
-                  <iframe src="https://jedlik.eu/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                  <iframe src="https://jedlik.eu/" onload="changeBackground3()" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPictures" data-bs-slide="prev" style="margin-left: -8vw;">

@@ -28,12 +28,38 @@ body{
     background-color: black;
 }
 
-#arazasbody{
+#nyersdiv{
     padding: 10px;
     text-align: justify;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 h3{
     text-decoration: underline;
+    color: aqua;
+}
+
+h2{
+    text-decoration: underline;
+    color: aqua;
+}
+
+p{
+    color: pink;
+}
+
+ul{
+    color: palevioletred;
+}
+
+#lapoz{
+    font-size: 16pt;
+    color:red;
+}
+
+#forint{
+    color: firebrick;
+}
+h1{
+    color: magenta;
 }

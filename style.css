@@ -2,14 +2,6 @@ body{
     font-family: 'Bebas Neue', cursive;
     color: white;
 }
-@media only screen and (max-width: 600px) {
-    body {
-        background-image: none;
-        background-color: black;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
 a:hover{
     color: purple !important; 
 }
@@ -24,8 +16,8 @@ nav{
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    /* make black background color gradient to purple */
-    background-image: linear-gradient(to bottom, #000000, #6a00ff);
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #000000, #6d00ff);
 }
 
 #arazasbody{

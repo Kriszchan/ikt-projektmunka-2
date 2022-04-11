@@ -1,0 +1,93 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homescreen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <table>
+            <tr>
+                <th><a href="Index.html">HOME</a></th>
+                <th><a href="autok.html"> AUTÓK</a></th>
+                <th><a href="mexiko.html">MEXIKÓ</a></th>
+                <th><a href="megjelenesek.html">MEGJELENÉSEK</a></th>
+                <th><a href="gepigeny.html">GÉPIGÉNY</a></th>
+                <th><a href="rendeles.html">BOLT</a></th>
+                <th><a href="hirek.html"> HÍREK</a></th>
+            </tr>
+
+        </table>
+    </div>
+    <img src="jdcnaddehh671.png" alt="forza_logo" class="menuimg">
+    <div class="hcontent">
+        <table id="hirek_table1">
+            <tr>
+                
+                <!-- <th><span>
+                    <input class="basic-slide" id="name" type="text" placeholder="Number of News Rows" />
+                  </span>
+                </th> -->
+                <th><input type="range" min="0" max="20" step="1" value="0" id="slider"></th>
+                <th><p>Hírek Mennyisége:</p><div class="value">0</div></th>
+                <th><input type="button" value="Megjelenítés" id="loadBtn"></th>
+            </tr>
+        </table>
+        <script>
+            //var myUrl = 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=1551360&count=3&maxlength=300&format=json';
+            var proxy = 'https://cors-anywhere.herokuapp.com/';
+            $( "#loadBtn" ).click(function(){
+            let count = document.getElementById('slider').value;
+            var myUrl = 'https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=1551360&count=' + count + '&maxlength=300&format=json';
+    var elem = document.getElementById('hirek_table1');
+    elem.parentNode.removeChild(elem);
+    $.ajax({
+        type: "GET",
+        url: proxy + myUrl,
+        data: "",
+        dataType: "JSON",
+        success: function(data)
+        {
+            var html = "";
+            html += '<tr><th>Legújabb Hírek: </th><th>Több Info: </th>';
+            var tomb = data.appnews.newsitems;
+             tomb.forEach(element => {
+                 html += '<tr><td>' + element.title + '</td><td><a href="' + element.url + '">Kattints!</a></td>';
+                 //alert('xd');
+             });
+            //alert(data.appnews.newsitems[0].title);
+            document.getElementById('hirek_table').innerHTML = html;
+        },
+        error: function(xhr, status, error){
+         var errorMessage = xhr.status + ': ' + xhr.statusText
+         alert('Hiba - ' + errorMessage + '                                                                           Aktiváld a https://cors-anywhere.herokuapp.com/corsdemo -t');
+     }
+
+
+    });
+}
+    
+  );
+  var elem = document.querySelector('input[type="range"]');
+
+var rangeValue = function(){
+  var newValue = elem.value;
+  var target = document.querySelector('.value');
+  target.innerHTML = newValue;
+}
+
+elem.addEventListener("input", rangeValue);
+        </script>
+        <table id="hirek_table">
+           
+        </table>
+
+    </div>
+</body>
+
+</html>

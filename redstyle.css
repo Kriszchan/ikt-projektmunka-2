@@ -21,11 +21,4 @@ nav{
 #refbody{
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #261447 !important;
-    background-image: url(images/Mortal-Kombat.jpg);
 }
-@media only screen and (max-width: 800px) {
-    #refbody {
-      background-image: url(images/MK1_SNES_vs_MD.png);
-    }
-  }

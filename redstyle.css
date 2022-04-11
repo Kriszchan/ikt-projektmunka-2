@@ -6,6 +6,7 @@ body{
     width: 75vw;
     padding: 0px;
     border: solid 2px purple;
+    margin: auto;
 }
 
 a:hover{
@@ -18,7 +19,13 @@ nav{
 }
 
 #refbody{
-    background-image: url(https://media.giphy.com/media/vBUz3Aoss4NzaUbO7S/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #261447 !important;
+    background-image: url(images/Mortal-Kombat.jpg);
 }
+@media only screen and (max-width: 800px) {
+    #refbody {
+      background-image: url(images/MK1_SNES_vs_MD.png);
+    }
+  }

@@ -22,10 +22,10 @@ nav{
     background-color: aquamarine;
 }
 body{
-    background-image: url(https://media.giphy.com/media/xbAJcyzufQcHm/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    /* make black background color gradient to purple */
+    background-image: linear-gradient(to bottom, #000000, #6a00ff);
 }
 
 #nyersdiv{

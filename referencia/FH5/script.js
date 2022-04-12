@@ -1,5 +1,5 @@
 var proxy = 'https://cors-anywhere.herokuapp.com/';
-function loadScript(http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js)
+function loadScript("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
 {    
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');

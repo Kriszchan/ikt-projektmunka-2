@@ -21,9 +21,3 @@ nav{
 #refbody{
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #261447 !important;
-}
-@media only screen and (max-width: 800px) {
-    #refbody {
-    }
-  }

@@ -2,14 +2,6 @@ body{
     font-family: 'Bebas Neue', cursive;
     color: white;
 }
-@media only screen and (max-width: 600px) {
-    body {
-        background-image: none;
-        background-color: black;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    }
 a:hover{
     color: purple !important; 
 }
@@ -22,18 +14,44 @@ nav{
     background-color: aquamarine;
 }
 body{
-    background-image: url(https://media.giphy.com/media/xbAJcyzufQcHm/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #000000, #791e94);
 }
 
-#arazasbody{
+#nyersdiv{
     padding: 10px;
     text-align: justify;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 h3{
     text-decoration: underline;
+    color: aqua;
+}
+
+h2{
+    text-decoration: underline;
+    color: aqua;
+}
+
+p{
+    color: pink;
+}
+
+ul{
+    color: palevioletred;
+}
+
+#lapoz{
+    font-size: 16pt;
+    color:red;
+}
+
+#forint{
+    color: firebrick;
+}
+h1{
+    color: magenta;
 }

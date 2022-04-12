@@ -36,9 +36,6 @@
                   <a class="nav-link text-primary" href="arazas.html">Árazás</a>
                 </li>                
                 <li class="nav-item">
-                  <a class="nav-link text-primary" href="arazas.html">Árazás</a>
-                </li>                
-                <li class="nav-item">
                   <a class="nav-link text-primary" href="kapcsolat.html">Kapcsolat</a>
                 </li>
               </ul>
@@ -50,31 +47,32 @@
     </nav>
 <body>
     <div class="container">
-        <div id="carouselPictures" class="carousel slide" data-bs-ride="carousel" >
+        <div id="carouselPictures" class="carousel slide" data-bs-ride="carousel" data-interval="false" >
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselPictures" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#carouselPictures" data-bs-slide-to="1" ></button>
                 <button type="button" data-bs-target="#carouselPictures" data-bs-slide-to="2" ></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <iframe src="https://en.wikipedia.org/wiki/Web_development" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
-                  <!-- <object data =  "https://facebook.com" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></object>  -->
+
+                <div class="carousel-item active" data-interval="false" onload="changeBackground()"> 
+                  <iframe onload="changeBackground()" onchange="" src="referencia/FH5/Index.html" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
-                <div class="carousel-item">
-                    <iframe src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                <div class="carousel-item" data-interval="false">
+                    <iframe  onload="changeBackground2()" src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
-                <div class="carousel-item">
-                  <iframe src="https://jedlik.eu/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                <div class="carousel-item" data-interval="false">
+                  <iframe src="https://jedlik.eu/" onload="changeBackground3()" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPictures" data-bs-slide="prev" style="margin-left: -8vw;">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPictures" data-bs-slide="next" style="margin-right: -8vw;">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPictures" data-bs-slide="next" id="carusel3" style="margin-right: -8vw;">
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
+        <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

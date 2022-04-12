@@ -45,7 +45,7 @@
             </div>
         </div>
     </nav>
-<body>
+    <h1 id="counter-label"></h1>
     <div class="container">
         <div id="carouselPictures" class="carousel slide" data-bs-ride="carousel" data-interval="false" >
             <div class="carousel-indicators">
@@ -55,20 +55,20 @@
             </div>
             <div class="carousel-inner">
 
-                <div class="carousel-item active" data-interval="false" onload="changeBackground()"> 
-                  <iframe onload="changeBackground()"src="referencia/FH5/Index.html" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                <div class="carousel-item active" data-interval="false"> 
+                  <iframe onload="changeBackground()"src="referencia/FH5/Index.html" style="height: 80vh; margin: auto; width: 80vw;" class="d-block" id="frame1"></iframe>
                 </div>
                 <div class="carousel-item" data-interval="false">
-                    <iframe onclick="changeBackground2()" src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                    <iframe src="http://darking.cf/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block" id="iframe2"></iframe>
                 </div>
                 <div class="carousel-item" data-interval="false">
-                  <iframe src="https://jedlik.eu/" onload="changeBackground3()" style="height: 80vh; margin: auto; width: 80vw;" class="d-block"></iframe>
+                  <iframe src="https://jedlik.eu/" style="height: 80vh; margin: auto; width: 80vw;" class="d-block" id="iframe3"></iframe>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPictures" data-bs-slide="prev" style="margin-left: -8vw;">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPictures" data-bs-slide="prev" style="margin-left: -8vw;" onclick="changeBackground2(); kattintasfrwd()">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPictures" data-bs-slide="next" id="carusel3" style="margin-right: -8vw;">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPictures" data-bs-slide="next" onclick="changeBackground2(); kattintasbkwd()" style="margin-right: -8vw;">
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>

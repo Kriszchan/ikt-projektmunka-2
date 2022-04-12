@@ -1,5 +1,6 @@
 function changeBackground() {
-    document.body.style.backgroundImage = "linear-gradient(to bottom, #000000, #6d00ff)";
+    document.body.style.backgroundImage = "radial-gradient(#111, #323)";
+    document.body.style.backgroundAttachment = "fixed";
 }
 function changeBackground2() {
     document.body.style.backgroundColor = "#000000";

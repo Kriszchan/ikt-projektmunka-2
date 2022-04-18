@@ -1,62 +1,66 @@
-body{
-    font-family: 'Bebas Neue', cursive;
-    color: white;
-}
-a:hover{
-    color: purple !important; 
-}
-nav{
-    border-bottom: solid 0.3vh purple;
-    margin-bottom: 2.5vh;
-    font-family: 'Press Start 2P', cursive;
-}
-::-webkit-scrollbar-button{
-    background-color: aquamarine;
-}
-body{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #000000, #791e94);
+body {
+	font-family: 'Bebas Neue', cursive;
+	color: white;
 }
 
-#nyersdiv{
-    padding: 10px;
-    text-align: justify;
-    font-size: 18pt;
+a:hover {
+	color: purple !important;
 }
 
-h3{
-    text-decoration: underline;
-    color: aqua;
+nav {
+	border-bottom: solid 0.3vh purple;
+	margin-bottom: 2.5vh;
+	font-family: 'Press Start 2P', cursive;
 }
 
-h2{
-    text-decoration: underline;
-    color: aqua;
+::-webkit-scrollbar-button {
+	background-color: aquamarine;
 }
 
-p{
-    color: pink;
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: linear-gradient(to bottom, #000000, #791e94);
 }
 
-ul{
-    color: palevioletred;
+#nyersdiv {
+	padding: 10px;
+	text-align: justify;
+	font-size: 18pt;
 }
 
-#lapoz{
-    font-size: 16pt;
-    color:red;
+h3 {
+	text-decoration: underline;
+	color: aqua;
 }
 
-#forint{
-    color: firebrick;
-}
-h1{
-    color: magenta;
+h2 {
+	text-decoration: underline;
+	color: aqua;
 }
 
-#alapcim{
-    margin: auto;
+p {
+	color: pink;
 }
 
+ul {
+	color: palevioletred;
+}
+
+#lapoz {
+	font-size: 16pt;
+	color: red;
+}
+
+.forint {
+	color: firebrick;
+}
+
+h1 {
+	color: magenta;
+}
+
+#alapcim {
+	margin: auto;
+}

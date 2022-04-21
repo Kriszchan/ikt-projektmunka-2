@@ -28,7 +28,6 @@ function kattintasbkwd() {
 function kattintasfrwd() {
 	counterVar -= 1;
 	if(counterVar < 0) counterVar = 2;
-	alert(counterVar);
 	if(counterVar == 0) {
 		document.body.style.backgroundColor = "none";
 		document.body.style.backgroundImage = "radial-gradient(#111, #323)";

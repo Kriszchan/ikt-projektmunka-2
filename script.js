@@ -41,3 +41,6 @@ function kattintasfrwd() {
 		document.body.style.setProperty('background-color', '#f8eeec', 'important');
 	}
 }
+$('.carousel').carousel({
+	interval: false,
+  });

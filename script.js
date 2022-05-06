@@ -50,3 +50,4 @@ function kattintasfrwd() {
 }
 $('.carousel').carousel({
 	interval: false,})
+	

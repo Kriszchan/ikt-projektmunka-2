@@ -6,7 +6,7 @@ body{
     width: 75vw;
     padding: 0px;
     border: solid 2px purple;
-    margin: auto;
+    margin: 0;
 }
 
 a:hover{
@@ -21,4 +21,8 @@ nav{
 #refbody{
     background-repeat: no-repeat;
     background-size: cover;
+}
+.container{
+    padding-left: 0;
+    margin-left: 14vw;
 }

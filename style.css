@@ -2,6 +2,26 @@ body {
 	font-family: 'Bebas Neue', cursive;
 	color: white;
 }
+textarea{  
+	display: block;
+	box-sizing: padding-box;
+	overflow: hidden;
+  }
+  
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+	resize: none;
+  }
+
+#kapcsbtn{
+	margin: auto;
+}
 
 a:hover {
 	color: purple !important;

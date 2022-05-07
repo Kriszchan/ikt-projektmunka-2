@@ -22,13 +22,10 @@ function kattintasbkwd() {
 		document.body.style.backgroundColor = "none";
 		document.body.style.setProperty('background-color', '#ffffff', 'important');
 	}
-	document.querySelector(carcont).disabled = true
+	document.querySelector(carcont).disabled = true;
 	if(disabled = true){
 		const myTimeout = setTimeout(kattintasbkwd, 5000);
-
-		function myStopFunction() {
-		  clearTimeout(myTimeout);
-		}
+		document.querySelector(carcont).disabled = false;
 	}
 }
 
@@ -50,4 +47,5 @@ function kattintasfrwd() {
 }
 $('.carousel').carousel({
 	interval: false,})
+	
 	

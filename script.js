@@ -24,8 +24,8 @@ function kattintasbkwd() {
 	}
 	document.querySelector(carcont).disabled = true;
 	if(disabled = true){
-		const myTimeout = setTimeout(kattintasbkwd, 5000);
-		document.querySelector(carcont).disabled = false;
+	setTimeout(kattintasbkwd, 5000);
+	document.querySelector(carcont).disabled = false;
 	}
 }
 
